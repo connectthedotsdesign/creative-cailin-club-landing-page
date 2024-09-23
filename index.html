@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Cailín Club</title>
+    <style>
+        /* General Page Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d1b9f4; /* Match the lavender background color */
+            color: #000; /* Text color */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Styling for the logo image */
+        .logo {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        /* Text styling */
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        /* Form styling */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #7c659b; /* Button color */
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Media Query for Mobile Responsiveness */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .logo {
+                max-width: 300px;
+            }
+
+            input[type="email"], input[type="submit"] {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Image -->
+    <img class="logo" src="./assets/Screenshot 2024-09-23 at 20.05.43.png" alt="Creative Cailín Club Logo">
+
+    <!-- Text Content -->
+    <h1>Coming Early 2025</h1>
+    <p>Join the waitlist & get exclusive updates</p>
+
+    <!-- Email Signup Form -->
+    <form action="https://formspree.io/f/{your-form-id}" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" value="Sign Up">
+    </form>
+
+</body>
+</html>
