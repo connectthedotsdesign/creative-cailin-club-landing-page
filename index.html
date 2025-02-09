@@ -67,6 +67,38 @@
             border-radius: 5px;
         }
 
+        a {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #7c659b; /* Button color */
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 50px;
+        }
+
+        .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7c659b; /* Button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px; /* Space between button and line */
+}
+
+.line {
+    width: 50%;  /* Adjust width as needed */
+    height: 1px;
+    background-color: #333; /* Line color */
+    margin: 20px auto; /* Center it and add space */
+}
+
         /* Media Query for Mobile Responsiveness */
         @media (max-width: 600px) {
             body {
@@ -100,8 +132,11 @@
     <!-- Text Content -->
     <h1>Design, Create, Thrive: Building Your Creative Business</h1>
     <p>Join us for an inspiring and practical one-day course designed to help you build and grow your creative business. </p>
-    <a href="https://bit.ly/4jOVJwm" ><p>Book Ticket</p></a>
     
+    
+    <a href="https://bit.ly/4jOVJwm" class="button">Book Ticket</a>
+
+    <div class="line"></div>    
     
     <p>Sign up to receive exclusive updates</p>
 
